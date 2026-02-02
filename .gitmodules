@@ -1,0 +1,3 @@
+[submodule "SuperSuit"]
+	path = SuperSuit
+	url = https://github.com/Farama-Foundation/SuperSuit.git
