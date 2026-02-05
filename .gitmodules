@@ -1,3 +1,6 @@
 [submodule "SuperSuit"]
 	path = SuperSuit
 	url = https://github.com/njayboehme/SuperSuit.git
+[submodule "stable-baselines3"]
+	path = stable-baselines3
+	url = https://github.com/njayboehme/stable-baselines3.git
