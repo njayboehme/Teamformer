@@ -1,0 +1,49 @@
+algorithm:
+  num_envs: 1
+  num_cpus: 1
+  batch_size: 128
+  num_steps_per_env: 128
+  gamma: 0.99
+  gae_lambda: 0.95
+  learning_rate: 0.00005
+  entropy_coefficient: 0.4
+  value_function_coefficient: 0.8
+  clip_range: 0.2
+  num_epochs: 5
+  max_grad_norm: 1.0
+  total_env_steps: 1000000
+  save_frequency: 51200
+
+
+policy:
+  type: "Teamformer" # Teamformer, DeepSet, or GNN
+  d_model: 32
+  num_enc_heads: 4
+  num_dec_heads: 4
+  num_enc_layers: 1
+  num_dec_layers: 1
+  mlp_layers: 1
+  mlp_hidden_dim: 32
+  do_informed: True # only for Teamformer
+  
+
+environment: 
+  rows: 10
+  cols: 10
+  split_env_percent: 0.0
+  num_agents: 4
+  num_capabilities: 4
+  max_num_targets: 4
+  episode_length: 128
+  max_team_obs_size: 4
+  max_target_obs_size: 4
+  do_random_targets: True
+  sensing_radius: 1
+  join_radius: 0
+  spawn_radius: 3
+  target_reward: 1
+  capability_scale: 1
+  alignment_scale: 1
+  timestep_penalty: 2
+  target_complete_reward: 7
+  task_allocation_method: 'mod_tsp'

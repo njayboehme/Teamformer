@@ -1,0 +1,42 @@
+teamformer_num_caps: 4
+teamformer_path: ''
+
+do_deep_set: True
+deep_set_num_caps: 4
+deep_set_path: ''
+
+do_gnn: True
+gnn_path: ''
+gnn_num_caps: 4
+
+do_optimal: True
+
+do_tsp: True
+
+rows: 10
+cols: 10
+num_env_steps: 50
+num_agents: 4
+max_num_targets: 4
+min_num_targets: 4
+max_targ_obs_size: 4
+max_team_obs_size: 4
+num_reqs_per_target: null
+max_team_spawn_size: 1
+sensing_radius: 1
+join_radius: 0
+spawn_radius: 3
+target_reward: 1
+capability_scale: 1
+alignment_scale: 1
+timestep_penalty: 2
+target_complete_reward: 7
+
+num_test_runs: 2
+do_random_targets: True
+same_env: True
+do_normal_state: True
+
+do_dynamic_targets: False # True
+base_num_targets: null # 20
+dynamic_TA_method: 'TSP' # NN
