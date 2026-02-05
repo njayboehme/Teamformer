@@ -1,5 +1,5 @@
 # Teamformer: Scalable Heterogeneous Multi-Robot Team Formation
-N. Boehme and Geoffrey Hollinger.Update "Teamformer: Scalable Heterogeneous Multi-Robot Team Formation" 2026 IEEE International Conference on Robotics and Automation (ICRA), 2026
+N. Boehme and Geoffrey Hollinger. "Teamformer: Scalable Heterogeneous Multi-Robot Team Formation" 2026 IEEE International Conference on Robotics and Automation (ICRA), 2026
 
 ## Steps to install
 1) Install python 3.10
