@@ -3,7 +3,7 @@ N. Boehme and Geoffrey Hollinger.Update "Teamformer: Scalable Heterogeneous Mult
 
 ## Steps to install
 1) Install python 3.10
-2) git clone --recurse-submodules <URL>
+2) git clone --recurse-submodules [URL]
 3) Create and activate a virtual env
 4) Install packages from requirements.txt
 5) cd into stable-baselines3 and run "pip install -e ."
